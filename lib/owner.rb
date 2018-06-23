@@ -50,5 +50,7 @@ class Owner
      self.pets[:cats].clear
      self.pets[:dogs].clear
   end
-
+  def list_pets
+    
+  end
 end
