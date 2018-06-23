@@ -18,6 +18,6 @@ class Owner
     @@all.length
   end
   def say_species
-    puts "I am a human."
+    return "I am a human."
   end
 end
