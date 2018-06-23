@@ -21,4 +21,7 @@ class Owner
   def say_species
     return "I am a human."
   end
+  def buy_fish(name)
+    @pets[:fishes][0] += 1
+  end
 end
