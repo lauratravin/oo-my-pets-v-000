@@ -51,6 +51,6 @@ class Owner
      self.pets[:dogs].clear
   end
   def list_pets
-      puts "I have "+ self.pets[:fishes].length +" fish, 3 dog(s), and 1 cat(s)."
+      return self.pets[:fishes].length 
   end
 end
