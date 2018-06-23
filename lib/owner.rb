@@ -22,6 +22,5 @@ class Owner
     return "I am a human."
   end
   def buy_fish(name)
-    @pets[:fishes] << name
-  end
+    @pets[:fishes] << Fish.new
 end
