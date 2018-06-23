@@ -17,7 +17,7 @@ class Owner
   def self.count
     @@all.length
   end
-  def self.say_species
+  def say_species
     puts "I am a human."
   end
 end
