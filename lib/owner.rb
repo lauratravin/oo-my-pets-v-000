@@ -46,7 +46,6 @@ class Owner
      self.pets[:fishes].clear
      self.pets[:cats].clear
      self.pets[:dogs].clear
-
   end
 
 end
