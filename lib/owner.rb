@@ -18,6 +18,6 @@ class Owner
     @@all.length
   end
   def self.say_species
-    print "I am a human."
+    puts "I am a human."
   end
 end
