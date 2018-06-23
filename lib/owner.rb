@@ -51,7 +51,7 @@ class Owner
      self.pets[:dogs].clear
   end
   def list_pets
-      text =  self.pets[:fishes].length + " " + self.pets[:dogs].length + " " + self.pets[:cats].length
+      text =  self.pets[:fishes].length.to_s + " " + self.pets[:dogs].length.to_s + " " + self.pets[:cats].length.to_s
       return text
   end
 end
